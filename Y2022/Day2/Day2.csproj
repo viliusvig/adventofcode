@@ -2,15 +2,15 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
       <None Remove="Part1\input.txt" />
-      <EmbeddedResource Include="Part1\input.txt">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <EmbeddedResource Include="Part1\d2_input.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </EmbeddedResource>
     </ItemGroup>
 
